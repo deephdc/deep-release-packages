@@ -1,0 +1,9 @@
+[DEEP-1-third-party]
+name=DEEP-1 - third-party
+baseurl=http://repo.indigo-datacloud.eu/repository/deep/production/1/centos7/$basearch/third-party
+protect=1
+enabled=1
+# To use priorities you must have yum-priorities installed
+priority=40
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc
