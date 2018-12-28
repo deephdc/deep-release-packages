@@ -1,6 +1,6 @@
 Name: deep-release
 Version: 1.0.0
-Release: 2%{?dist}
+Release: 1%{?dist}
 Summary: DEEP-1 (Genesis) Release
 License: Apache Software License
 Source: %{name}-%{version}.src.tgz
