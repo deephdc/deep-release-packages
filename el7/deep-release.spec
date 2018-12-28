@@ -38,7 +38,7 @@ if [ "$1" = "0" ]; then grep -q -e "deep-release" /etc/yum/pluginconf.d/prioriti
 %files
 %defattr(-,root,root,-)
 
-/etc/deep-release
+/etc/deep-hdc-release
 /etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc
 /etc/yum.repos.d/deep-1-base.repo
 /etc/yum.repos.d/deep-1-third-party.repo
