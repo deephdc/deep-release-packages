@@ -1,0 +1,4 @@
+etc/deep-hdc-release
+etc/apt/sources.list.d/deep-11.list
+etc/apt/preferences.d/deep-1
+etc/apt/trusted.gpg.d/indigo-dc
