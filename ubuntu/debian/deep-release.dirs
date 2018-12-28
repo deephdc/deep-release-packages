@@ -1,0 +1,4 @@
+etc
+etc/apt/sources.list.d
+etc/apt/preferences.d
+etc/apt/trusted.gpg.d
