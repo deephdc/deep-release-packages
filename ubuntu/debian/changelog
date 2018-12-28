@@ -1,0 +1,7 @@
+deep-release (1.0.0-1) unstable; urgency=low
+
+  * Adding repository key
+
+  * First release using dpkg-source 3.0 (quilt) format
+
+ -- Cristina Duma <aiftim@infn.it>  Thu, 01 Nov 2018 15:11:00 +0000
