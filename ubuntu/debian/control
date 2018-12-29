@@ -1,12 +1,12 @@
 
-Source:  deep-release
+Source:  deephdc-release
 Build-Depends:  debhelper
 Section:  devel
 Priority:  optional
 Maintainer:  Cristina Duma <aiftim@infn.it>
 Standards-Version:  3.9.2
 
-Package:  deep-release
+Package:  deephdc-release
 Architecture:  any
 Depends:   
 Description:  DEEP-HybridDataCloud  release repositories files
