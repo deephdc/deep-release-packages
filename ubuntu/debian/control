@@ -10,4 +10,4 @@ Package:  deep-release
 Architecture:  any
 Depends:   
 Description:  DEEP-HybridDataCloud  release repositories files
-contains deep-hdc-release version and protection configuration of the DEEP-HybridDataCloud repositories
+ contains deep-hdc-release version and protection configuration of the DEEP-HybridDataCloud repositories
