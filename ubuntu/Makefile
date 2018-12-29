@@ -1,10 +1,10 @@
-name=deep-release
+name=deephdc-release
 prefix=/
 
 # needed dirs
 debbuild_dir=$(shell pwd)/debbuild
 deb_version=1.0.0
-deb_age=2
+deb_age=1
 here=$(shell pwd)
 
 .PHONY: clean install deb
