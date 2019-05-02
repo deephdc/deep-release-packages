@@ -21,11 +21,9 @@ install:
 	@mkdir -p $(prefix)/etc/apt
 	@mkdir -p $(prefix)/etc/apt/sources.list.d
 	@mkdir -p $(prefix)/etc/apt/preferences.d
-	@mkdir -p $(prefix)/etc/apt/trusted.gpg.d
 	@install -m 0644 etc/deep-hdc-release $(prefix)/etc
 	@install -m 0644 etc/apt/sources.list.d/deep-1.list $(prefix)/etc/apt/sources.list.d
 	@install -m 0644 etc/apt/preferences.d/deep-1 $(prefix)/etc/apt/preferences.d
-	@install -m 0644 etc/apt/trusted.gpg.d/indigo-dc $(prefix)/etc/apt/trusted.gpg.d
 
 ###########################################################$(DESTDIR)#########
 # Build Distribution
