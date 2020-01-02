@@ -45,8 +45,7 @@ prepare-debbuilddir: srcdist
 
 deb-src: prepare-debbuilddir
 	ls -l $(debbuild_dir)
-	cd $(debbuild_dir)
-	strace dpkg-source -b $(name)-$(deb_version)
+	cd $(debbuild_dir) && dpkg-source -b $(name)-$(deb_version)
 
 deb: deb-src
 	cd $(debbuild_dir)/$(name)-$(deb_version) && debuild -us -uc
