@@ -1,7 +1,7 @@
 Name: deephdc-release
-Version: 1.0.0
+Version: 2.0.0
 Release: 1%{?dist}
-Summary: DEEP-1 (Genesis) Release
+Summary: DEEP-2 (Rosetta) Release
 License: Apache Software License
 Source: %{name}-%{version}.src.tgz
 Vendor: DEEP-HybridDataCloud
@@ -40,10 +40,12 @@ if [ "$1" = "0" ]; then grep -q -e "deephdc-release" /etc/yum/pluginconf.d/prior
 
 /etc/deephdc-release
 /etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc
-/etc/yum.repos.d/deep-1-base.repo
-/etc/yum.repos.d/deep-1-third-party.repo
-/etc/yum.repos.d/deep-1-updates.repo
+/etc/yum.repos.d/deep-2-base.repo
+/etc/yum.repos.d/deep-2-third-party.repo
+/etc/yum.repos.d/deep-2-updates.repo
 
 %changelog
+* Thu Jan 02 2020 Cristina Duma <aiftim@infn.it>
+- second release
 * Thu Nov 01 2018 Cristina Duma <aiftim@infn.it>
 - first release

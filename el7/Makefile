@@ -15,9 +15,9 @@ install:
 	@mkdir -p $(prefix)/etc/pki
 	@mkdir -p $(prefix)/etc/pki/rpm-gpg
 	@install -m 0644 etc/deephdc-release $(prefix)/etc
-	@install -m 0644 etc/yum.repos.d/deep-1-base.repo $(prefix)/etc/yum.repos.d
-	@install -m 0644 etc/yum.repos.d/deep-1-updates.repo $(prefix)/etc/yum.repos.d
-	@install -m 0644 etc/yum.repos.d/deep-1-third-party.repo $(prefix)/etc/yum.repos.d
+	@install -m 0644 etc/yum.repos.d/deep-2-base.repo $(prefix)/etc/yum.repos.d
+	@install -m 0644 etc/yum.repos.d/deep-2-updates.repo $(prefix)/etc/yum.repos.d
+	@install -m 0644 etc/yum.repos.d/deep-2-third-party.repo $(prefix)/etc/yum.repos.d
 	@install -m 0644 etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc $(prefix)/etc/pki/rpm-gpg
 
 dist:

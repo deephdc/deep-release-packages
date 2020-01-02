@@ -3,7 +3,7 @@ prefix=/
 
 # needed dirs
 debbuild_dir=$(shell pwd)/debbuild
-deb_version=1.0.0
+deb_version=2.0.0
 deb_age=1
 here=$(shell pwd)
 
@@ -22,8 +22,8 @@ install:
 	@mkdir -p $(prefix)/etc/apt/sources.list.d
 	@mkdir -p $(prefix)/etc/apt/preferences.d
 	@install -m 0644 etc/deep-hdc-release $(prefix)/etc
-	@install -m 0644 etc/apt/sources.list.d/deep-1.list $(prefix)/etc/apt/sources.list.d
-	@install -m 0644 etc/apt/preferences.d/deep-1 $(prefix)/etc/apt/preferences.d
+	@install -m 0644 etc/apt/sources.list.d/deep-2.list $(prefix)/etc/apt/sources.list.d
+	@install -m 0644 etc/apt/preferences.d/deep-2 $(prefix)/etc/apt/preferences.d
 
 ###########################################################$(DESTDIR)#########
 # Build Distribution

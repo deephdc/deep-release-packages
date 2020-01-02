@@ -1,3 +1,3 @@
 etc/deep-hdc-release
-etc/apt/sources.list.d/deep-1.list
-etc/apt/preferences.d/deep-1
+etc/apt/sources.list.d/deep-2.list
+etc/apt/preferences.d/deep-2

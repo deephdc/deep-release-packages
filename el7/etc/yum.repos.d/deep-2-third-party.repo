@@ -1,6 +1,6 @@
-[DEEP-1-base]
-name=DEEP-1 - Base
-baseurl=https://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/$basearch/base
+[DEEP-2-third-party]
+name=DEEP-2 - third-party
+baseurl=https://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/$basearch/third-party
 protect=1
 enabled=1
 # To use priorities you must have yum-priorities installed

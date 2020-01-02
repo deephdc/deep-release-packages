@@ -1,6 +1,6 @@
-[DEEP-1-updates]
-name=DEEP-1 - Updates
-baseurl=https://repo.indigo-datacloud.eu/repository/deep-hdc/production/1/centos7/$basearch/updates
+[DEEP-2-base]
+name=DEEP-2 - Base
+baseurl=https://repo.indigo-datacloud.eu/repository/deep-hdc/production/2/centos7/$basearch/base
 protect=1
 enabled=1
 # To use priorities you must have yum-priorities installed
