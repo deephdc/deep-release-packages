@@ -44,6 +44,7 @@ prepare-debbuilddir: srcdist
 	@echo "done"
 
 deb-src: prepare-debbuilddir
+	ls -l $(debbuild_dir)
 	cd $(debbuild_dir) && dpkg-source -b $(name)-$(deb_version)
 
 deb: deb-src
