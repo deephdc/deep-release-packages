@@ -1,0 +1,5 @@
+deephdc-release (2.0.0-1) unstable; urgency=low
+
+  * Second release for Ubuntu 18.04 using dpkg-source 3.0 (quilt) format
+
+ -- Cristina Duma <aiftim@infn.it>  Thu, 02 Jan 2020 11:51:00 +0000

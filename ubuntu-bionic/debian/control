@@ -1,0 +1,13 @@
+
+Source:  deephdc-release
+Build-Depends:  debhelper
+Section:  devel
+Priority:  optional
+Maintainer:  Cristina Duma <aiftim@infn.it>
+Standards-Version:  3.9.2
+
+Package:  deephdc-release
+Architecture:  any
+Depends:   
+Description:  DEEP-HybridDataCloud  release repositories files for Ubuntu 18.04 Bionic
+ contains deep-hdc-release version and protection configuration of the DEEP-HybridDataCloud repositories
