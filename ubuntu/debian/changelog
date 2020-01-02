@@ -1,7 +1,5 @@
-deephdc-release (1.0.0-1) unstable; urgency=low
+deephdc-release (2.0.0-1) unstable; urgency=low
 
-  * Adding repository key
+  * Second release using dpkg-source 3.0 (quilt) format
 
-  * First release using dpkg-source 3.0 (quilt) format
-
- -- Cristina Duma <aiftim@infn.it>  Thu, 01 Nov 2018 15:11:00 +0000
+ -- Cristina Duma <aiftim@infn.it>  Thu, 02 Jan 2020 11:51:00 +0000
